@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="主页" />
+        <item
+            android:id="@+id/nav_voicetoword"
+            android:icon="@drawable/ic_menu_share"
+            android:title="语音转文字" />
+        <item
+            android:id="@+id/nav_voicesyn"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="语音识别朗读" />
+        <item
+            android:id="@+id/nav_long"
+            android:icon="@drawable/ic_menu_subway"
+            android:title="会议语音" />
+    </group>
+
+    <item android:title="更厉害的功能">
+        <menu>
+            <item
+                android:id="@+id/nav_VoicalID"
+                android:icon="@drawable/ic_menu_sister"
+                android:title="声纹管理" />
+            <item
+                android:id="@+id/nav_KeyWord"
+                android:icon="@drawable/ic_menu_news"
+                android:title="关键词提取" />
+            <item
+                android:id="@+id/nav_Translation"
+                android:icon="@drawable/shape_bg_about_text_purple"
+                android:title="翻译" />
+        </menu>
+    </item>
+
+    <item android:title="实用功能" >
+        <menu>
+            <item
+                android:id="@+id/nav_sound_record"
+                android:icon="@drawable/ic_menu_weather"
+                android:title="录音功能" />
+            <item
+                android:id="@+id/nav_voice_change"
+                android:icon="@drawable/ic_menu_tools"
+                android:title="声音处理" />
+            <item
+                android:id="@+id/nav_voicetest"
+                android:icon="@drawable/ic_menu_subway"
+                android:title="朗读打分" />
+            <item
+                android:id="@+id/nav_voiceawake"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="语音响应" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_else" >
+        <menu>
+            <item
+                android:id="@+id/nav_else_setting"
+                android:icon="@drawable/ic_menu_setting"
+                android:title="@string/menu_else_setting" />
+            <item
+                android:id="@+id/nav_else_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/menu_else_about" />
+        </menu>
+    </item>
+</menu>
